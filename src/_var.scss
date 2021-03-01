@@ -1,0 +1,11 @@
+@mixin title {
+  font-family: 'Raleway', sans-serif;
+  color: $title-color;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+@mixin text {
+  font-family: 'Roboto', sans-serif;
+  color: $text-color;
+}
